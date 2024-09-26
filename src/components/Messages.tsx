@@ -1,6 +1,6 @@
 import { type Message as TMessage } from "ai/react";
 import { Message } from "./Message";
-import { BotMessageSquareIcon, MessageSquare } from "lucide-react";
+import { BotMessageSquareIcon } from "lucide-react";
 
 interface MessagesProps {
   messages: TMessage[];
